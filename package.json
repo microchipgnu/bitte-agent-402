@@ -8,8 +8,10 @@
 		"deploy": "bun lib/script-helper.ts deploy --url"
 	},
 	"dependencies": {
+		"@coinbase/x402": "^0.4.1",
 		"hono": "^4.8.3",
-		"vercel-url": "^0.2.8"
+		"vercel-url": "^0.2.8",
+		"x402-hono": "^0.4.1"
 	},
 	"devDependencies": {
 		"@types/node": "^22.15.34",
